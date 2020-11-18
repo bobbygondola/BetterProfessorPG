@@ -24,7 +24,7 @@ function createToken(user) {
       const rounds = 13;
       const hash = bcryptjs.hashSync(password, rounds);
       db.register({ username, password: hash, subject })
-        .then(([user]) => {
+        .then((user) => {
           res.status(200).json({message: "Welcome Professor!"});
         })
         .catch(error => {
