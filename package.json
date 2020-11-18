@@ -1,0 +1,29 @@
+{
+  "name": "BetterProfessorPG",
+  "version": "1.0.0",
+  "description": "Backend of Better Professor Transfered To Postgres",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbygondola/BetterProfessorPG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbygondola/BetterProfessorPG/issues"
+  },
+  "homepage": "https://github.com/bobbygondola/BetterProfessorPG#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "knex": "^0.21.12",
+    "morgan": "^1.10.0",
+    "pg": "^8.5.1"
+  }
+}
