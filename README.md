@@ -86,3 +86,23 @@ ALL NORMAL INFO, PLUS ANY EDITED
     "desc": "all aspects of an api"
 }
 ```
+
+<br />
+## DELETES
+
+```
+TO DELETE STUDENT'S PROJECT
+
+type: DELETE, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/projects/:PROJECTID
+
+DELETES PROJECT, SENDS BACK A MESSAGE
+
+```
+```
+TO DELETE A STUDENT
+
+type: DELETE, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/:STUDENTID
+
+DELETES STUDENT, SENDS BACK A MESSAGE
+
+```
