@@ -54,3 +54,19 @@ DATA TO SEND UP
     "desc": "all aspects of an api"
 }
 ```
+
+```
+TO EDIT STUDENT INFO
+type: PUT, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/:STUDENTID
+
+DATA TO SEND UP
+ALL NORMAL INFO, PLUS ANY EDITED
+{
+    "name": "bobbbbbbbbbbbbbby",
+    "email": "bobby@gmail.com",
+    "img_url": null,
+    "subject": "software",
+    "teacher_id": 6
+}
+
+```
