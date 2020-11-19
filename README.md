@@ -70,3 +70,18 @@ ALL NORMAL INFO, PLUS ANY EDITED
 }
 
 ```
+
+```
+TO EDIT PROJECT INFO
+type: PUT, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/projects/:PROJECTID
+
+DATA TO SEND UP
+ALL NORMAL INFO, PLUS ANY EDITED
+{
+    "project_name": "build an api",
+    "due_date": "11/30/2020", <- NEW DATE!
+    "student_id": 6,
+    "project_type": "software",
+    "desc": "all aspects of an api"
+}
+```
