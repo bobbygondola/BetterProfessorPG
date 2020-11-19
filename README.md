@@ -17,6 +17,8 @@ type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/register
 ```
 TO LOGIN
 type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/login
+
+DATA TO SEND UP
 {
     "username":"Bobbyg",
     "password":"BobbySWE"
@@ -27,6 +29,7 @@ type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/login
 TO POST A NEW STUDENT
 type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students
 
+DATA TO SEND UP
 {
     "name": "bobby",
     "email": "bobby@gmail.com",
@@ -40,6 +43,7 @@ type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/
 TO POST A STUDENTS PROJECT
 type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/6/students/projects
 
+DATA TO SEND UP
 {
     "project_name": "build an api",
     "due_date": "11/26/2020",
