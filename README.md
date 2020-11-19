@@ -22,3 +22,16 @@ type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/login
     "password":"BobbySWE"
 }
 ```
+
+```
+TO POST A NEW STUDENT
+type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students
+
+{
+    "name": "bobby",
+    "email": "bobby@gmail.com",
+    "img_url": null,
+    "subject": "software",
+    "teacher_id": 6
+}
+```
