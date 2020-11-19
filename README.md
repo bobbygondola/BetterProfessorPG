@@ -6,7 +6,7 @@ BASE_URL = https://betterprofessordb.herokuapp.com/
 
 ```
 TO REGISTER
-https://betterprofessordb.herokuapp.com/api/register
+type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/register
 {
     "username":"Bobbyg",
     "password":"BobbySWE",
@@ -16,7 +16,7 @@ https://betterprofessordb.herokuapp.com/api/register
 
 ```
 TO LOGIN
-https://betterprofessordb.herokuapp.com/api/login
+type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/login
 {
     "username":"Bobbyg",
     "password":"BobbySWE"
