@@ -41,7 +41,7 @@ DATA TO SEND UP
 
 ```
 TO POST A STUDENTS PROJECT
-type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/6/students/projects
+type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/projects
 
 DATA TO SEND UP
 {
