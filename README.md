@@ -40,6 +40,11 @@ DATA TO SEND UP
     "subject": "software",
     "teacher_id": 6
 }
+
+RESPONSE
+{
+    "message": "new student added!"
+}
 ```
 ```
 TO POST A STUDENTS PROJECT
@@ -52,6 +57,11 @@ DATA TO SEND UP
     "student_id": 6,
     "project_type": "software",
     "desc": "all aspects of an api"
+}
+
+RESPONSE
+{
+    "message": "new project created"
 }
 ```
 <br />
