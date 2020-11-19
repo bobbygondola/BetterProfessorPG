@@ -4,8 +4,6 @@ Backend of Better Professor Transfered To Postgres
 BASE_URL = https://betterprofessordb.herokuapp.com/
 
 ## LOGIN/REGISTER
-<br />
-<br />
 ```
 TO REGISTER
 type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/register
@@ -17,7 +15,6 @@ DATA TO SEND UP
     "subject":"software"
 }
 ```
-<br />
 ```
 TO LOGIN
 type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/login
@@ -30,8 +27,6 @@ DATA TO SEND UP
 ```
 
 ## POSTS
-<br />
-<br />
 ```
 TO POST A NEW STUDENT
 type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students
@@ -45,7 +40,6 @@ DATA TO SEND UP
     "teacher_id": 6
 }
 ```
-<br />
 ```
 TO POST A STUDENTS PROJECT
 type: POST, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/projects
@@ -61,8 +55,6 @@ DATA TO SEND UP
 ```
 
 ## EDITS
-<br />
-<br />
 ```
 TO EDIT STUDENT INFO
 type: PUT, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/:STUDENTID
@@ -78,7 +70,6 @@ ALL NORMAL INFO, PLUS ANY EDITED
 }
 
 ```
-<br />
 ```
 TO EDIT PROJECT INFO
 type: PUT, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/projects/:PROJECTID
