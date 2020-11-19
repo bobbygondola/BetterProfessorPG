@@ -25,6 +25,7 @@ DATA TO SEND UP
     "password":"BobbySWE"
 }
 ```
+<br />
 
 ## POSTS
 ```
