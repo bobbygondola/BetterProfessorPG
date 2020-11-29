@@ -27,6 +27,24 @@ DATA TO SEND UP
 ```
 <br />
 
+## GETS
+```
+TO GET ALL STUDENTS
+type: GET, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students
+
+RESPONSE
+[
+    {
+        "id": 6,
+        "name": "bobby",
+        "img_url": null,
+        "email": "bobby@gmail.com",
+        "subject": "software",
+        "teacher_id": 6
+    }
+]
+```
+
 ## POSTS
 ```
 TO POST A NEW STUDENT
