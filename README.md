@@ -29,7 +29,7 @@ DATA TO SEND UP
 
 ## GETS
 ```
-TO GET ALL STUDENTS
+TO GET ALL STUDENTS BY TEACHER ID
 type: GET, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students
 
 RESPONSE
@@ -43,6 +43,39 @@ RESPONSE
         "teacher_id": 6
     }
 ]
+```
+<br />
+```
+TO GET ALL PROJECTS BY TEACHER ID
+type: GET, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/projects
+
+RESPONSE
+
+[
+    {
+        "id": 5,
+        "teacher_id": 6,
+        "student_id": 6,
+        "name": "bobby",
+        "project_name": "build an api",
+        "due_date": "11/26/2020",
+        "project_type": "software",
+        "desc": "all aspects of an api",
+        "completed": null
+    },
+    {
+        "id": 6,
+        "teacher_id": 6,
+        "student_id": 6,
+        "name": "bobby",
+        "project_name": "build an api",
+        "due_date": "11/26/2020",
+        "project_type": "software",
+        "desc": "all aspects of an api",
+        "completed": null
+    }
+]
+
 ```
 
 ## POSTS
