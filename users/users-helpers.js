@@ -2,7 +2,6 @@ const db = require("../data/db-config");
 
 //GETS ONLY
 const getAllProjects = (id) => {
-  //works
   return db("projects")
     .join("students", "students.id", "projects.student_id")
     .join("teachers", "teachers.id", "students.teacher_id")
@@ -20,7 +19,6 @@ const getAllProjects = (id) => {
     );
 };
 const getAllTeachers = () => {
-  //works
   return db("teachers").select(
     "teachers.id",
     "teachers.username",
@@ -28,22 +26,17 @@ const getAllTeachers = () => {
   );
 };
 const getMentoredStudents = (id) => {
-  //works
   return db("students").where({ teacher_id: id });
 };
 const getById = (id, sid) => {
-  //works
   return db("students").where({ teacher_id: id }).where("id", sid);
 };
-//END OF GETS ONLY
 
 //POSTS ONLY
 const addStudent = (student) => {
-  //works
   return db("students").insert(student, "id").orderBy("id");
 };
 const addProject = (project, id) => {
-  //works
   return db("projects")
     .join("students", "students.id", "projects.student_id")
     .select(
@@ -57,11 +50,9 @@ const addProject = (project, id) => {
     .insert(project)
     .where({ student_id: id });
 };
-//end of posts
 
-//Puts only
+//PUTS ONLY
 const editStudent = (id, studentId, changes) => {
-  //works
   return db("students")
     .update(changes)
     .where({ teacher_id: id })
@@ -74,7 +65,6 @@ const editProject = (id, projectId, changes) => {
 };
 
 //DELETES ONLY
-// deletes student and all associated projects
 const deleteStudent = (id, studentId) => {
   return db("students").where({ teacher_id: id }).where("id", studentId).del();
 };
@@ -89,7 +79,7 @@ module.exports = {
   addStudent,
   getById,
   addProject,
-  deleteStudent, //and projects
+  deleteStudent,
   editStudent,
   editProject,
   deleteProject,
