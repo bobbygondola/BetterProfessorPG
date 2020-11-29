@@ -45,6 +45,24 @@ RESPONSE
 ]
 ```
 ```
+TO GET SPECIFIC STUDENT BY TEACHER ID AND STUDENT ID
+type: GET, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/:STUDENTID
+
+RESPONSE
+
+[
+    {
+        "id": 6,
+        "name": "bobby",
+        "img_url": null,
+        "email": "bobby@gmail.com",
+        "subject": "software",
+        "teacher_id": 6
+    }
+]
+```
+
+```
 TO GET ALL PROJECTS BY TEACHER ID
 type: GET, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/projects
 
