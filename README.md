@@ -44,7 +44,6 @@ RESPONSE
     }
 ]
 ```
-<br />
 ```
 TO GET ALL PROJECTS BY TEACHER ID
 type: GET, endpoint: https://betterprofessordb.herokuapp.com/api/users/teacher/:TEACHERID/students/projects
