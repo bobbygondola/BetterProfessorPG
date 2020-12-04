@@ -27,8 +27,16 @@ DATA TO SEND UP
 ```
 <br />
 
-## Important! To process requests to this api, you need to pass up the proper Authorization. By registering you create a cookie.
-### Pass the cookie in the headers:{Authorization: "cookiehash"}
+## Important! To process requests to this api, you need to pass up the proper Authorization. 
+By registering you create a cookie.
+Pass the cookie as a header for Authorization
+```
+headers: {
+        Authorization: "Client-ID ztoTzxhY0SrZXvT_Lyrf-Ctb1ES7vogdBImr0R2Esg0"
+    }
+```
+
+<br />
 
 ## GETS
 ```
