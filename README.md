@@ -34,7 +34,7 @@ Pass the cookie as a header for Authorization
 <br />
 ```
 headers: {
-        Authorization: "Client-ID ztoTzxhY0SrZXvT_Lyrf-Ctb1ES7vogdBImr0R2Esg0"
+        Authorization: "ztoTzxhY0SrZXvT_Lyrf-Ctb1ES7vogdBImr0R2Esg0"
     }
 ```
 
