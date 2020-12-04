@@ -27,6 +27,9 @@ DATA TO SEND UP
 ```
 <br />
 
+## Important! To process requests to this api, you need to pass up the proper Authorization. By registering you create a cookie.
+### Pass the cookie in the headers:{Authorization: "cookiehash"}
+
 ## GETS
 ```
 TO GET ALL STUDENTS BY TEACHER ID
