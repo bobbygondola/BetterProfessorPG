@@ -26,16 +26,19 @@ DATA TO SEND UP
 }
 ```
 <br />
+<br />
 
 ## Important! To process requests to this api, you need to pass up the proper Authorization. 
-By registering you create a cookie.
+By logging in, you create a cookie.
 Pass the cookie as a header for Authorization
+<br />
 ```
 headers: {
         Authorization: "Client-ID ztoTzxhY0SrZXvT_Lyrf-Ctb1ES7vogdBImr0R2Esg0"
     }
 ```
 
+<br />
 <br />
 
 ## GETS
