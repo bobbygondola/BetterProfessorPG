@@ -32,6 +32,7 @@ DATA TO SEND UP
 By logging in, you create a cookie.
 Pass the cookie as a header for Authorization
 <br />
+**hint, Can be passed as the second argument for an Axios request**
 ```
 headers: {
         Authorization: "ztoTzxhY0SrZXvT_Lyrf-Ctb1ES7vogdBImr0R2Esg0"
